@@ -48,11 +48,18 @@ header {
     background-color: red;
 }
 /* Exercise 2 */
-.exercise-2 .square
-{
+.exercise-2 .square {
     background-color: red;
     transition: 2s;
 }
-.exercise-2 .square:active{
+.exercise-2 .square:active {
     width: 100%;
+}
+/* Exercise 3 */
+.exercise-3 .square {
+    background-color: red;
+    transition: 0.5s;
+}
+.exercise-3 .square:hover {
+    border-radius: 50%;
 }
