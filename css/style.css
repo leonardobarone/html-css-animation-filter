@@ -47,3 +47,12 @@ header {
 .exercise-1 .square:hover {
     background-color: red;
 }
+/* Exercise 2 */
+.exercise-2 .square
+{
+    background-color: red;
+    transition: 2s;
+}
+.exercise-2 .square:active{
+    width: 100%;
+}
