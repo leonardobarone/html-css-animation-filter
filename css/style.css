@@ -63,3 +63,11 @@ header {
 .exercise-3 .square:hover {
     border-radius: 50%;
 }
+/* Exercise 4 */
+.exercise-4 .square {
+    background-color: red;
+    transition: 1s;
+}
+.exercise-4 .square:hover {
+    opacity: 0;
+}
